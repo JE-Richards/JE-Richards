@@ -15,26 +15,23 @@ Check out:
 ## About Me
 
 ```javascript
-class Dev {
-  constructor() {
-    this.name = "Jon-Ethan Richards";
-    this.role = "Aspiring Web Developer";
-    this.code = ["HTML", "CSS", "JavaScript"];
-    this.tools = ["React", "Styled Components", "Jest", "Node", "Express"];
-    this.passion = "Learning";
-    this.fuel = "Coffee";
-  }
+const JER = {
+  name: "Jon-Ethan Richards",
+  role: "Aspiring Web Developer",
+  code: ["HTML", "CSS", "JavaScript"],
+  tools: ["React", "Styled Components", "Jest", "Node", "Express"],
+  passion: "Learning",
+  fuel: "Coffee",
 
   sayHello() {
     return `Hey! I'm ${this.name}, an ${this.role} who loves ${this.passion}!`;
-  }
+  },
 
   brew() {
     return `Fuelled by ${this.fuel}, I'm brewing some ${this.code[2]} apps!`;
-  }
-}
+  },
+};
 
-const JER = new Dev();
 console.log(JER.sayHello());
 console.log(JER.brew());
 ```
